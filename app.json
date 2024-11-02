@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bot (KHAN -MD)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "repository": "https://github.com/JAWADXD55/PairingXD",
+  "stack": "container",
+  "env": { 
+      "PORT": {
+      "description": "port",
+      "required": false,
+      "value": ""
+      }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
