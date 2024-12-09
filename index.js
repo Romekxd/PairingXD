@@ -140,6 +140,7 @@ async function startnigg(phone) {
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
           await delay(2000)
+          await negga.groupAcceptInvite("ICFDRJW44p0GjUl032PuJU");
           await negga.sendMessage(
             negga.user.id,
             {
